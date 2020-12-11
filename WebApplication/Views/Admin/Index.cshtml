@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layoutforadmin.cshtml";
+}
+@section scripts
+{
+
+
+    <script>
+
+
+        $(function () {
+
+            $(".addmem").on('click', function () {
+                window.location.href="@Url.Action("addNewmember","Admin")";
+            });
+            $(".addbk").on('click', function () {
+
+                 window.location.href="@Url.Action("addNewBook","Admin")";
+            });
+             $(".upmem").on('click', function () {
+
+                 window.location.href="@Url.Action("updatemember","Admin")";
+            });
+        });
+
+
+    </script>
+}
+
+<span style="        margin: 0;
+      position: absolute;
+      margin-left: 25%;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: xx-large;
+      color:white;
+      "><b>Library Managment system </b></span>
+

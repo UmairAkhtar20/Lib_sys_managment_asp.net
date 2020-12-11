@@ -1,1 +1,2 @@
-# Lib_sys_managment_asp.net
+# Library_Management_system_winform_Csharp
+Small University project Library Management System

@@ -1,0 +1,196 @@
+﻿
+@{
+    ViewBag.Title = "updatemem";
+    Layout = "~/Views/Shared/_layoutformem.cshtml";
+}
+
+
+@section scripts
+{
+
+    <script>
+
+        $(function () {
+
+            loadmember();
+            $(".btt").on("click", function () {
+                debugger;
+                var id = $(".memid").val();
+                var name = $(".txtname").val();
+                var fathername = $(".txtfathername").val();
+                var cnic = $(".txtcnic").val();
+                var phone = $(".txtphone").val();
+                var email = $(".txtemail").val();
+                var data = new FormData();
+                data.append("name", name);
+                data.append("fathername", fathername);
+                data.append("id", id);
+                //  data.append("Picture", s);
+                data.append("cnic", cnic);
+                data.append("phone", phone);
+                data.append("email", email);
+                var files = $("#fileupload").get(0).files;
+                if (files.length > 0) {
+                    data.append("Image", files[0]);
+                }
+
+                var settings = {
+                    type: 'POST',
+                    url: '/Member/updatemember',
+                    contentType: false,
+                    processData: false,
+                    data: data,
+                    success: function (resp) {
+                        alert("Record Updated");
+                    },
+                    error: function (e) {
+                        alert("error");
+                    }
+
+
+                };
+                $.ajax(settings);
+
+
+            });
+            $("#fileupload").change(function (event) {
+                var x = URL.createObjectURL(event.target.files[0]);
+
+                $("#upload-img").attr("src", x);
+                console.log(event);
+                var s = x + ".jpg";
+               
+
+            });
+        });
+
+        function loadmember() {
+            
+            
+            debugger;
+                var settings = {
+                    type: 'POST',
+                    datatype: 'json',
+                    url: '/Member/showupdatemember',
+                    data: {},
+                    success: function (resp) {
+                        debugger;
+                        $(".memid").val(resp.memerid);
+                        $(".txtname").val(resp.name);
+                        $(".txtfathername").val(resp.fathername);
+                        $(".txtcnic").val(resp.cnic);
+                        $(".txtemail").val(resp.email);
+                        $(".txtphone").val(resp.phone);
+                        $("img").attr('src', '/UploadedFiles/'+resp.picture+'');
+                       // resp = JSON.parse(resp);
+                       // resp = { data: resp };
+                       //// var source = $("#listtemplate").html();
+                       // var template = Handlebars.compile(source);
+                       // var html = template(resp);
+                       // $("#tblbody").append(html);
+
+
+                    },
+                    error: function (e) {
+                        alert("error");
+                    }
+
+
+                };
+                $.ajax(settings);
+
+
+        }
+
+
+
+    </script>
+
+}
+
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-2 ">
+            <img src="" id="upload-img" style="width: 200px; height: 200px; margin-top: 35px; margin-left: 752px; position: absolute;">
+
+            <div class="custom-file" style="  margin-top: 250px; margin-left: 752px; position: absolute;">
+                <label for="fileupload" style="color: white;">Upload Profile</label>
+                <input type="file" id="fileupload">
+            </div>
+        </div>
+    </div>
+    <input type="hidden" class="memid" mem="" />
+    <div class="form-group">
+        <label style="color:white;" class="col-md-4 control-label"> Name</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input name="first_name" class="form-control txtname" type="text">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label style="color:white;" class="col-md-4 control-label">Father Name</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input name="last_name" class="form-control txtfathername" type="text">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label style="color:white;" class="col-md-4 control-label">E-Mail</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input name="email" class="form-control txtemail" type="text">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label style="color:white;" class="col-md-4 control-label">Phone #</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                <input name="phone" class="form-control txtphone" type="text">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label style="color:white;" class="col-md-4 control-label">Cnic</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                <input name="cnic" class="form-control txtcnic" type="text" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-4 control-label"></label>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-danger btt  ">Save <span class="glyphicon glyphicon-send"></span></button>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+

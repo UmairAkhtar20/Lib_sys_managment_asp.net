@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section Scripts
+{
+ 
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+
+            $('.login_mem').on('click', function () {
+                window.location.href = "@Url.Action("Member","Home")";
+
+            });
+             $('.login_admin').on('click', function () {
+                window.location.href = "@Url.Action("Admin","Home")";
+
+            });
+
+
+        });
+
+
+    </script>
+}
+
+<link href="~/Scripts/Style.css" rel="stylesheet" />
+<div class="container">
+    <div class="chipu">
+        <span>Chipu&CO. </span>
+        <br />
+        <span>All Rights Resevered &copy;</span>
+    </div>
+
+
+    <span class="span">Library Management System</span>
+    <div class="vertical-center">
+        <button class="login_mem">Member</button>
+    </div>
+    <div class="center">
+        <button class="login_admin">Admin</button>
+    </div>
+
+</div>
+

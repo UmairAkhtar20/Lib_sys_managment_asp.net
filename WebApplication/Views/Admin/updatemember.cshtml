@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewBag.Title = "updatemember";
+    Layout = "~/Views/Shared/_layoutforadmin.cshtml";
+}
+
+@section scripts
+{
+    <script src="~/Scripts/handlebars-v4.7.6.js"></script>
+    <script>
+                            $(function () {
+
+
+                                loadmem();
+
+                                $(".table tbody").on('click','a.b', function () {
+                                    
+                                    var memid = $(this).closest("tr").attr("memid");
+                                    
+                                    var mainPath = "@Url.Action("updatememberview","Admin")";
+                                    window.location.href = mainPath + "/" + memid;
+
+                                });
+
+
+
+                                function loadmem() {
+                                    debugger;
+                                    var settings = {
+                                        type: 'POST',
+                                        datatype: 'json',
+                                        url: '/Admin/showmember1',
+                                        data: {},
+                                        success: function (resp) {
+                                            debugger;
+                                            resp = JSON.parse(resp);
+                                            resp = { data: resp};
+                                            var source = $("#listtemplate").html();
+                                            var template = Handlebars.compile(source);
+                                            var html = template(resp);
+                                            $("#tblbody").append(html);
+
+
+                                        },
+                                        error: function (e) {
+                                            alert("error");
+                                        }
+
+
+                                    };
+                                    $.ajax(settings);
+                                }
+
+
+        });
+    </script>
+}
+    
+
+
+   
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-bordered table-striped " style="margin-top:75px;">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>FatherName</th>
+                                <th>Date Of Registration</th>
+                                <th>Update Member</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tblbody">
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script id="listtemplate" type="text/x-handlebars-template">
+   
+    {{#each data}}
+    <tr memid="{{ID}}">
+        <td style="color:white;">{{ID}}</td>
+        <td style="color:white;">{{Name}}</td>
+        <td style="color:white;">{{FatherName}}</td>
+        <td style="color:white;">{{DOR}}</td>
+        <td ><a href="#" class="b"  style="color:white;" data-toggle="modal" data-target="#modalitc" >Update</a></td>
+        </tr>
+    {{/each}}
+       
+</script>

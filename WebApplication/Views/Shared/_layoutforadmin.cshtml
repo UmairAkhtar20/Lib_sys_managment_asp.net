@@ -1,0 +1,86 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5 {
+            font-family: "RobotoDraft", "Roboto", sans-serif
+        }
+
+        body {
+            background-image: url(d6fdc83f651e1c1460625cd25da61cd0.jpg);
+        }
+
+        .w3-bar-block .w3-bar-item {
+            padding: 16px
+        }
+
+        .w3-main {
+        }
+    </style>
+    <title>Admin</title>
+    <link href="@Url.Content("~/Scripts/Style.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/jquery-3.4.1.min.js")"></script>
+
+
+    <link href="@Url.Content("~/Scripts/bootstrap.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
+    <script>
+          $(function () {
+
+            $(".addmem").on('click', function () {
+                window.location.href="@Url.Action("addNewmember","Admin")";
+            });
+            $(".addbk").on('click', function () {
+
+                 window.location.href="@Url.Action("addNewBook","Admin")";
+            });
+             $(".upmem").on('click', function () {
+
+                 window.location.href="@Url.Action("updatemember","Admin")";
+             });
+               $(".canmem").on('click', function () {
+
+                 window.location.href="@Url.Action("Canclemember", "Admin")";
+               });
+               $(".log").on('click', function () {
+
+                 window.location.href="@Url.Action("Index", "Home")";
+            });
+        });
+    </script>
+
+
+    @RenderSection("scripts", false)
+</head>
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large"><span style="width:60%;"> Welcome Admin</span> </a>
+        <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu"
+           class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i></a>
+        <a href="javascript:void(0)" class=" addmem w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align">Add New Member </a>
+        <a id="myBtn" onclick="myFunc('Demo1')" href="javascript:void(0)" class=" addbk w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black">Add New Books </a>
+
+        <a href="#" class=" upmem w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align">Update Member</a>
+        <a href="#" class=" canmem w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align">Cancel Membership</a>
+        <a href="#" class=" log w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align">Logout</a>
+    </nav>
+
+    <div class="w3-main" style="margin-left:320px;">
+        <div class="container">
+            @RenderBody()
+        </div>
+       
+    </div>
+</body>
+</html>

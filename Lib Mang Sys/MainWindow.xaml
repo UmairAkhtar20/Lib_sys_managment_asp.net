@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lib_Mang_Sys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lib_Mang_Sys"
+        mc:Ignorable="d"
+        Title="LMS" Height="450" Width="765">
+    <Grid>
+        <Image Source="C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\images\d6fdc83f651e1c1460625cd25da61cd0.jpg" Stretch="UniformToFill" ></Image>
+        <Label Content="Library Managment System" HorizontalAlignment="Left" Margin="144,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.447,-0.5" Width="455" HorizontalContentAlignment="Center" FontSize="20" Foreground="White"/>
+        <Button Content="Member" HorizontalAlignment="Left" Margin="144,208,0,0" VerticalAlignment="Top" Width="113" Height="33" FontSize="20" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="Admin" HorizontalAlignment="Left" Margin="441,208,0,0" VerticalAlignment="Top" Width="119" Height="33" FontSize="20" FontWeight="Bold" Click="Button_Click_1"/>
+        <Label Content="Created By" HorizontalAlignment="Left" Margin="555,306,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.053,-0.308" Width="131" FontSize="20" Foreground="White"/>
+        <Label Content="Chipu &amp; Co." HorizontalAlignment="Left" Margin="613,343,0,0" VerticalAlignment="Top" Width="121" FontSize="20" Foreground="White"/>
+        <Label Content="All rights reserved" HorizontalAlignment="Left" Margin="641,385,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-0.167" Width="112" Foreground="White"/>
+        
+    </Grid>
+</Window>

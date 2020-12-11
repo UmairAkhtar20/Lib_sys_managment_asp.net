@@ -1,0 +1,77 @@
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\bin\Debug\Lib Mang Sys.exe.config
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\bin\Debug\Lib Mang Sys.exe
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\bin\Debug\Lib Mang Sys.pdb
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.csprojAssemblyReference.cache
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\MainWindow.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\App.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys_MarkupCompile.cache
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys_MarkupCompile.lref
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\MainWindow.baml
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.g.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Properties.Resources.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.csproj.GenerateResource.cache
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.csproj.CoreCompileInputs.cache
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.exe
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys.pdb
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\bin\Debug\Database1.mdf
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\bin\Debug\Database1_log.ldf
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib Mang Sys_Content.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Admin Login.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Admin Login.baml
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Admin_Panel.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.New_member.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.New_Book.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Cancel_Member.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Update_Member_Form.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Update_Member.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\issuebook.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Member Login.g.cs
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\issuebook.baml
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Member Login.baml
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Issue_Book.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Member_Panel.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Book_Return.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.View_Acc.resources
+C:\Users\umair\source\repos\Lib Mang Sys\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.UpDAte_Member_Acc.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\Database1.mdf
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\Database1_log.ldf
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\Lib Mang Sys.exe.config
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\Lib Mang Sys.exe
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\Lib Mang Sys.pdb
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.csprojAssemblyReference.cache
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Admin Login.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\issuebook.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\MainWindow.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Member Login.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\App.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys_Content.g.cs
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys_MarkupCompile.cache
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys_MarkupCompile.lref
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Admin Login.baml
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\issuebook.baml
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\MainWindow.baml
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Member Login.baml
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.g.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Admin_Panel.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Book_Return.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Cancel_Member.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Issue_Book.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Member_Panel.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.New_Book.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.New_member.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Properties.Resources.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.UpDAte_Member_Acc.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Update_Member_Form.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.Update_Member.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib_Mang_Sys.View_Acc.resources
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.csproj.GenerateResource.cache
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.csproj.CoreCompileInputs.cache
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.exe
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.pdb
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.BOA.dll
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.Entities.dll
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.DAL.dll
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.BOA.pdb
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.Entities.pdb
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\bin\Debug\LMS.DAL.pdb
+C:\Users\umair\source\repos\Library_Management_system_winform_Csharp\Lib Mang Sys\obj\Debug\Lib Mang Sys.csproj.CopyComplete
